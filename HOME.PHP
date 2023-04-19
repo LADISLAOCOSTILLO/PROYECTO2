@@ -14,7 +14,9 @@
     <tr>
         <td>
         </div> 
-      <div class="form-group">
+      <div <div style="text-align: center">
+      <!--<div class="form-group">--> 
+      
        <!--<button type="submit" class="btn btn-primary btn-block">-->
        <button type="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>
        <button type="button"> <img src="TRABAJO.png" height ="300" width="250" /></button>
