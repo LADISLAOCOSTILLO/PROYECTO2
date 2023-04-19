@@ -9,5 +9,20 @@
 </head>
 <body>
     <h1><center>BIENVENIDO A TODOIST</H1></center>
-</body>
+    <h4><center>¿Cómo planeas usar Todoist?</h4></center>
+    <!--tr*6>td*3-->
+    <tr>
+        <td>
+        </div> 
+      <div class="form-group">
+       <!--<button type="submit" class="btn btn-primary btn-block">-->
+       <button type="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>
+       <button type="button"> <img src="TRABAJO.png" height ="300" width="250" /></button>
+          <!-- btn-block : Botón que se expande en ancho según su contenedor</button> -->      
+      </div>
+
+        </td>
+    </tr>
+     
+   </body>
 </html>
