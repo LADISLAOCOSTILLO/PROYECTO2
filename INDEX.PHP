@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login2</title>
+    <title>P_SEGURIDAD</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="estilos.css" rel="stylesheet">
 </head>
+
 <body>
 <form action="VALIDAR.PHP" method="post">
 <h1>SISTEMA DE LOGIN</H1>
-<P>usuario <input type="text"placeholder ="ingrese su nombre" name ="usuario"></p>
-<P>contraseña <input type="password"placeholder ="ingrese contraseña" name ="contraseña"></p>
-<input type="submit" value ="igresar">
+
+<tr>
+    <td width ="50">USUARIO </td>
+    <minlength="4" maxlength="8" size="10">
+    <td>
+        <input type="text"placeholder ="ingrese su nombre" name ="USUARIO">
+    </td>
+</tr>
+<tr>
+    <br> 
+    <td>CONTRASEÑA</td>
+    <td>
+        <input type="password"placeholder ="ingrese contraseña" name ="PASWORD">
+    </td>
+</tr>
+
+<!--<P>usuario <input type="text"placeholder ="ingrese su nombre" name ="USUARIO"></p>-->
+<br>
+<input type="submit" value ="INGRESAR">
+<input type="reset" value ="LIMPIAR">
 </form> 
 </body>
 </html>

@@ -1,11 +1,13 @@
 <?php
-$usuario=$_POST ['usuario'];
-$contraseña=$_POST['contraseña'];
+include('db.php');
+$USUARIO=$_POST['USUARIO'];
+$PASWORD=$_POST['PASWORD'];
+
 session_start();
-$_SESSION ['usuario']=$usuario;
+$_SESSION ['USUARIO']=$USUARIO;
 $conexion=mysqli_connect ("localhost","root","54321","BDTEST");
 
- $consulta ="SELECT*FROM LOGIN2 where usuario='$usuario' and contraseña='$contraseña'";
+ $consulta ="SELECT*FROM P_SEGURIDAD where USUARIO='$USUARIO' and PASWORD='$PASWORD'";
  $resultado =mysqli_query ($conexion,$consulta);
 
  $filas=mysqli_num_rows($resultado);
@@ -17,8 +19,15 @@ $conexion=mysqli_connect ("localhost","root","54321","BDTEST");
     <?php
     include ("index.php");
     ?>
-    <h1 class ="bad">ERROR DE AUTENTICACION</H1>
+    <h1  class ="bad">ERROR DE AUTENTICACION</H1>
     <?php
 }
 mysqli_free_result($resultado);
 mysqli_close($conexion);
+
+
+
+
+
+
+
