@@ -7,6 +7,7 @@
     <title>P_SEGURIDAD</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="estilos.css" rel="stylesheet">
+    <img src="logoTODOIST.png"width="300" height="100" alt="AGENDA"/>
 </head>
 
 <body>
