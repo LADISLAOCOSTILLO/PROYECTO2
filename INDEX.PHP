@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P_SEGURIDAD</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="estilos.css" rel="stylesheet">
-    <img src="logoTODOIST.png"width="300" height="100" alt="AGENDA"/>
+    <link href="estilos.Css" rel="stylesheet">
 </head>
 
 <body>
+<header>
+<img class="logo" src="logoTODOIST.png"width="300" height="100" alt="AGENDA"/><br>
 <form action="VALIDAR.PHP" method="post">
-<h1>SISTEMA DE LOGIN</H1>
+<h1>SISTEMA DE LOGIN</H1><br>
 
 <tr>
     <td width ="50">USUARIO </td>
-    <minlength="4" maxlength="8" size="10">
+    <minlength="4" maxlength="8" size="10"><br>
     <td>
         <input type="text"placeholder ="ingrese su nombre" name ="USUARIO">
     </td>
-</tr>
+</tr><br>
 <tr>
     <br> 
-    <td>CONTRASEÑA</td>
+    <td>CONTRASEÑA</td><br>
     <td>
         <input type="password"placeholder ="ingrese contraseña" name ="PASWORD">
     </td>
-</tr>
-
+</tr><br><br>
 <!--<P>usuario <input type="text"placeholder ="ingrese su nombre" name ="USUARIO"></p>-->
-<br>
+
 <input type="submit" value ="INGRESAR">
 <input type="reset" value ="LIMPIAR">
+</header>
 </form> 
 </body>
 </html>
