@@ -18,9 +18,20 @@
       <!--<div class="form-group">--> 
       
        <!--<button type="submit" class="btn btn-primary btn-block">-->
-       <button type="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>
+
+        <a href="pantalla_principal.html">
+            <!--<button>Youtube</button>-->   
+            <button onclick="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>
+            
+        </a> 
+       <!-- <button type="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>-->
+   
+       
+       
        <button type="button"> <img src="TRABAJO.png" height ="300" width="250" /></button>
-          <!-- btn-block : Botón que se expande en ancho según su contenedor</button> -->      
+          <!-- btn-block : Botón que se expande en ancho según su contenedor</button> -->   
+          <!--https://www.youtube.com/watch?v=4qUphI-AUKY--> 
+             
       </div>
 
         </td>
