@@ -19,7 +19,7 @@
       
        <!--<button type="submit" class="btn btn-primary btn-block">-->
 
-        <a href="pantalla_principal.html">
+        <a href="pantalla_principal.HTML">
             <!--<button>Youtube</button>-->   
             <button onclick="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>
             

@@ -13,7 +13,7 @@
 <header>
 <img class="logo" src="logoTODOIST.png"width="300" height="100" alt="AGENDA"/><br>
 <form action="VALIDAR.PHP" method="post">
-<h1>SISTEMA DE LOGIN</H1><br>
+<h1><Center>SISTEMA DE LOGIN</H1><br>
 
 <tr>
     <td width ="50">USUARIO </td>
