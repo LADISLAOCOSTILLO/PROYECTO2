@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODOis</title>
-    
+   
 </head>
+
 <body>
+    
+     
+
+
 <!--tr*6>td*3-->
     <TABLE style="border: hidden">
         <TR>
@@ -25,35 +30,26 @@
             </TD> 
             <TD width="60%" bgcolor="RED">LADISLAO</TD> <TD bgcolor="red" width="40%">TERCERA PARTE</TD>
         </TR>
-    </TABLE>       
-    <TABLE style="border: hidden">
-        <TR>
-            <TD><b><img src ="bandeja.png" width="20" heigt ="20">Bandeja</TD></b>   
-        </TR>
-        <TR>
-            <TD> 
-                <div>
-                    <B><FONT COLOR="red"> 
-                        <script>
-                           date = new Date().getDate ();
-                            document. write(date);
-                           
-                            </script>
-                    </FONT>
-                    Hoy
-                </div>
-            </TD>
-            
-        </TR>
+    </TABLE>  
+    <TR>    
+        <!--<tr><button name="button"><img src="bandeja.png" height ="30" width="30" >BANDEJA</button> </tr> -->
+        <button type="submit" class="btn btn-primary btn-sm" style='width: 129px; height:25px'><img src="bandeja.png"> Bandeja</button><br>
+    </TR>
         <tr>
-            <td><strong><img src ="PROXIMO.PNG" WIDTH="20" height="20">   Proximo</td>
-        </tr>
-        <tr>
-            <td><strong><img src="FILTRO.PNG" width="20" height="20">    Filtro Etiquetas</td>
-        </tr>
-
-        
-    </TABLE>
+            <button type="submit" class="btn btn btn-primary-lg btn-block" style='width: 129px; height:25px'>
+            <div>
+            <B><FONT COLOR="red"> 
+                <script>
+                   date = new Date().getDate ();
+                    document. write(date);
+                   
+                    </script>
+            </FONT>   
+            Hoy</button> <br>  
+            <button onclick="changeColor('blue')" type="submit" class="btn btn-primary btn-sm" style='width: 129px; height:25px'><img src="PROXIMO.PNG"> Proximo</button><br>
+            <button type="submit" class="btn btn-primary btn-sm"><img src="FILTRO.PNG"> Filtro Etiquetas</button><br>
+        </tr> 
+     
    
     
     

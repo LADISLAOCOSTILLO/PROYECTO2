@@ -12,6 +12,7 @@ $conexion=mysqli_connect ("localhost","root","54321","BDTEST");
 
  $filas=mysqli_num_rows($resultado);
  if ($filas){
+   echo"contraseña correcta";
     header("location:HOME.php");
  
  }else {
