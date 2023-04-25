@@ -57,3 +57,5 @@ input[type=password]
  margin: 4px 0px;
  width:200px;
 }
+input[type=text]
+{

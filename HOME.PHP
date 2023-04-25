@@ -27,10 +27,11 @@
        <!-- <button type="button"> <img src="EDUCACION.png" height ="300" width="250" /></button>-->
    
        
-       
+       <a href="para trabajo.html">
        <button type="button"> <img src="TRABAJO.png" height ="300" width="250" ></button>
           <!-- btn-block : Botón que se expande en ancho según su contenedor</button> -->   
           <!--https://www.youtube.com/watch?v=4qUphI-AUKY--> 
+</a>
              
       </div>
 

@@ -20,7 +20,7 @@ $conexion=mysqli_connect ("localhost","root","54321","BDTEST");
     <?php
     include ("index.php");
     ?>
-    <h1  class ="bad">ERROR DE AUTENTICACION</H1>
+    <h1  class ="bad"><center>ERROR DE AUTENTICACION</H1>
     <?php
 }
 mysqli_free_result($resultado);

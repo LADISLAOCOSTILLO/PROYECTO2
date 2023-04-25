@@ -11,7 +11,7 @@
 	<TR>
 		<TD>
 
-    <h1>Formulario de ingreso de datos BANDEJA</h1>
+    <h1>Formulario de ingreso de datos BOTON HOY</h1>
     <form action="procesar.php" method="post">
 
         <label for="nombre_tarea">Nombre Tarea:</label>
@@ -30,15 +30,13 @@
         <input type="tel" id="telefono" name="telefono"><br><br>
       
 
-        <input type="submit" value="AÑADIR TAREA">
+        <input type="submit" value="AÑADIR_TAREA">
         <input type="reset" value="LIMPIAR">
-        
-
     </form>
     </TD> 
 	</TR>
 	</TABLE>
     <a href="pantalla_principal.html">
-    <input type="reset" value="REGRESAR">
+    <input type="submit" value="REGRESAR"></a>
 </body>
 </html>
