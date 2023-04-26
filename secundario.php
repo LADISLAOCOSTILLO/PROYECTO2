@@ -20,25 +20,30 @@
         <label for="descripcion">Descripcion:</label>
         <input type="text" id="descripcion" name="descripcion"><br><br>
 
-        <label for="email">Email:</label>
+        <label for="email">Email:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         <input type="email" id="email" name="email"><br><br>
 
-        <Label for="fecha">Fecha: </label>
-        <input type="date"id="fecha" name="dd/mm/yyyy">
+        <Label for="fecha">Fecha: </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="date"id="fecha" name="dd/mm/yyyy"> &nbsp &nbsp &nbsp &nbsp
 
-        <label for="telefono">Teléfono Contacto:</label>
+        <label for="telefono">TeléfonoC:</label>
         <input type="tel" id="telefono" name="telefono"><br><br>
       
-
-        <input type="submit" value="AÑADIR TAREA">
-        <input type="reset" value="LIMPIAR">
+       
+        <div style ="text-align :center;">
+            <input type="submit" value="AÑADIR TAREA">
+            <input type="reset" value="LIMPIAR">
+        </div>
+        
+        
         
 
     </form>
     </TD> 
 	</TR>
 	</TABLE>
+    <br>
     <a href="pantalla_principal.html">
-    <input type="reset" value="REGRESAR">
+    <input type="reset" value="REGRESAR"></a>
 </body>
 </html>
