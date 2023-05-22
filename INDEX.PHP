@@ -33,6 +33,7 @@
 
 <input type="submit" value ="INGRESAR">
 <input type="reset" value ="LIMPIAR">
+<h1>afdfsdf<h1>
 </header>
 </form> 
 </body>
