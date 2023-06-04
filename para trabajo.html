@@ -15,18 +15,48 @@
         <TR>
             <TD>
     
-        <h2><center>  FORMULARIO DE PAGO </h2></center>
-        <form action="procesar.php" method="post">
-    
-            <label for="nombre_tarea">Ingrese su tarjeta:</label>
-            <input type="text" id="nombre_tarea" name="nombre_tarea"
-                minlength="3" maxlength="4" required pattern="[0-9]+" />
-    
+        <h2>  FORMULARIO DE PAGO </h2>
+        <form align="left" action="procesar.php" method="post">
             
-          
-    
-            <input type="submit" value="Enviar">
-            <input type="reset" value="LIMPIAR">
+            <label for="txt">Ingrese su tarjeta:</label>
+            
+            <input type="text" id="nombre_tarea1" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="nombre_tarea2" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="nombre_tarea3" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="nombre_tarea4" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+            <p>
+            <label for="txt">Clave:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            
+            <input type="text" id="Clave" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+        </p>
+        <p>
+            <label  for="txt">Nombre:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input  type="text" id="nombre_tarea" name="nombre_tarea"
+            minlength="1" maxlength="20" required pattern="[0-9]+" />
+           
+        <p>
+            <label for="apellido">Apellido: </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input type="apellido" name="apellido" id="apellido" required>
+        </p>
+        
+        <p>
+            <label for="fecha_nacimiento">F. Nacimiento: </label> &nbsp &nbsp
+            <input type="apellido" name="apellido" id="apellido" required>
+        </p>
+
+            <p>
+            <center><input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPIAR"></center>
+        </p>
+        </td>
         </form>
         </TD> 
         </TR>

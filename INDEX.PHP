@@ -24,7 +24,7 @@
 </tr><br>
 <tr>
     <br> 
-    <td>CONTRASEÑA</td><br>
+    <td>CONTRASEÑAs</td><br>
     <td>
         <input type="password"placeholder ="ingrese contraseña" name ="PASWORD">
     </td>
