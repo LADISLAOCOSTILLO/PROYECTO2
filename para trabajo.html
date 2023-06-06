@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <img src="logoTODOIST.png" width="400" height="100"alt="AGENDA"/>
+    
 </head>
 <body>
     <h1> <center>ESTA ES UNA VERSION DE PAGO </h1></center>
@@ -16,40 +17,44 @@
             <TD>
     
         <h2>  FORMULARIO DE PAGO </h2>
-        <form align="left" action="procesar.php" method="post">
+        <form align="left" action="para trabajo.html" method="post">
             
-            <label for="txt">Ingrese su tarjeta:</label>
+            <label for="txt">Ingrese tarjeta:</label>
             
-            <input type="text" id="nombre_tarea1" style ="width: 30px" name="nombre_tarea"
+            <input type="text" id="bloque1" style ="width: 30px" name="nombre_tarea"
             minlength="1" maxlength="4" required pattern="[0-5]+" />
 
-            <input type="text" id="nombre_tarea2" style ="width: 30px" name="nombre_tarea"
+            <input type="text" id="bloque2" style ="width: 30px" name="nombre_tarea"
             minlength="1" maxlength="4" required pattern="[0-5]+" />
 
-            <input type="text" id="nombre_tarea3" style ="width: 30px" name="nombre_tarea"
+            <input type="text" id="bloque3" style ="width: 30px" name="nombre_tarea"
             minlength="1" maxlength="4" required pattern="[0-5]+" />
 
-            <input type="text" id="nombre_tarea4" style ="width: 30px" name="nombre_tarea"
+            <input type="text" id="bloque4" style ="width: 30px" name="nombre_tarea"
             minlength="1" maxlength="4" required pattern="[0-5]+" />
             <p>
-            <label for="txt">Clave:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            
+            <label for="txt">Clave:</label>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
             <input type="text" id="Clave" style ="width: 30px" name="nombre_tarea"
-            minlength="1" maxlength="4" required pattern="[0-5]+" />
+            minlength="1" maxlength="3" required pattern="[0-5]+" />
+            </p>
+            <p>
+                <label  for="txt">DNI:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                <input  type="text" id="DNI" name="nombre_tarea" style="width: 70PX;"
+                minlength="1" maxlength="8" required pattern="[0-9]+" />
         </p>
         <p>
-            <label  for="txt">Nombre:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            <input  type="text" id="nombre_tarea" name="nombre_tarea"
+            <label  for="txt">Nombre:</label> &nbsp &nbsp &nbsp &nbsp 
+            <input  type="text" id="Nombre" name="nombre_tarea"
             minlength="1" maxlength="20" required pattern="[0-9]+" />
            
         <p>
-            <label for="apellido">Apellido: </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            <input type="apellido" name="apellido" id="apellido" required>
+            <label for="apellido">Apellido: </label> &nbsp &nbsp &nbsp &nbsp 
+            <input type="apellido" name="Apellido" id="Apellido" required>
         </p>
         
         <p>
-            <label for="fecha_nacimiento">F. Nacimiento: </label> &nbsp &nbsp
-            <input type="apellido" name="apellido" id="apellido" required>
+            <label for="F_Nacimiento">F_Nacimiento: </label> 
+            <input type="apellido" name="F_Nacimiento" id="F_Nacimiento" required>
         </p>
 
             <p>
@@ -63,5 +68,7 @@
         
         </TABLE>
     </div> 
+    <center><a href="pantalla_principal.html"><br>
+        <input type="submit" value="REGRESAR"><br></center>
 </body>
 </html>
