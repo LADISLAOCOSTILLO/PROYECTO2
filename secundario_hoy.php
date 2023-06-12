@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Datos</title>
     
 </head>
 <body>
 
-<TABLE BORDER="1">
+<TABLE BORDER="0">
 	<TR>
 	<TD>
 
-    <h1>Formulario de ingreso de datos BOTON HOY</h1>
+    <h3>FORMULARIO DE INGRESO A BOTON HOY</h3>
     <form action="procesar_hoy.php" method="post">
 
         <label for="nombrsse_tarea">Nombre Tarea:</label> 

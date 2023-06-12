@@ -13,15 +13,15 @@ if (!$conexion) {
 }
 $nombre= $_POST["nombre_tarea"];
 $descripcion = $_POST["descripcion"];
-$encargado = $_POST["encargado"];
+$encargado = $_POST["Encargado"];
 $fecha=$_POST ["dd/mm/yyyy"];
 $telefono = $_POST["telefono"];
 
-$sql = "INSERT INTO tablaBandeja1 (nombre_tarea, descripcion, encargado, fecha, telefono) VALUES ('$nombre', '$descripcion', '$encargado','$fecha','$telefono')";
+$sql = "INSERT INTO tablaBandeja1 (nombre_tarea, descripcion, Encargado, fecha, telefono) VALUES ('$nombre', '$descripcion', '$encargado','$fecha','$telefono')";
 
 if (mysqli_query($conexion,$sql)) {
     
-    echo "Los datos se han guardado correctamente en la base de datos de bandeja.";
+    echo "Los datos se han guardado correctamente en la base de datos.";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conexion);
 }

@@ -17,8 +17,8 @@ label {
     width: 150px;
     display: inline-block;
     text-align: left;
-    font-size: 1.5rem;
-    font-family: 'Lato';
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 input {
     border: 2px solid #ccc;

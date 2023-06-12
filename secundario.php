@@ -4,46 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Datos</title>
+    
 </head>
 <body>
-<TABLE BORDER>
-	<TR>
-		<TD>
 
-    <h1>Formulario de ingreso de datos BANDEJA</h1>
+<TABLE BORDER="0">
+	<TR>
+	<TD>
+
+    <h3>FORMULARIO DE INGRESO A BOTON BANDEJA</h3>
     <form action="procesarBandeja.php" method="post">
 
-        <label for="nombre_tarea">Nombre Tarea:</label>
+        <label for="nombrsse_tarea">Nombre Tarea:</label> 
         <input type="text" id="nombre_tarea" name="nombre_tarea">
 
         <label for="descripcion">Descripcion:</label>
         <input type="text" id="descripcion" name="descripcion"><br><br>
 
-        <label for="Encargado">Emaili:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <label for="Encargado">Encargado:</label>&nbsp &nbsp &nbsp 
         <input type="text" id="Encargado" name="Encargado"><br><br>
 
         <Label for="fecha">Fecha: </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-        <input type="date"id="fecha" name="dd/mm/yyyy"> &nbsp &nbsp &nbsp &nbsp
+        <input type="date"id="fecha" name="dd/mm/yyyy">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 
         <label for="telefono">TeléfonoC:</label>
         <input type="tel" id="telefono" name="telefono"><br><br>
-      
-       
-        <div style ="text-align :center;">
-            <input type="submit" value="AÑADIR TAREA">
-            <input type="reset" value="LIMPIAR-bandeja">
-        </div>
-        
-        
-        
 
+        <div style="text-align:center;">
+            <input type="submit" value="AÑADIR_TAREA">
+            <input type="reset" value="LIMPIAR-ban"><br>
+        </div>
+        <br>
     </form>
     </TD> 
 	</TR>
-	</TABLE>
-    <br>
-    <a href="pantalla_principal.html">
-    <input type="reset" value="REGRESAR"></a>
+    </TABLE>
+      <a href="pantalla_principal.html">
+    <input type="submit" value="REGRESAR">
 </body>
 </html>

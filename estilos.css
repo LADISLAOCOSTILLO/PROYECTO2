@@ -26,7 +26,7 @@ header{
 
 input[type=submit]
 {
- background-color: #1C94C8;
+ background-color: #86c81c;
  color:white;
  padding: 8px 10px;
  margin: 8px 0px;
@@ -36,7 +36,7 @@ input[type=submit]
 }
 input[type=reset]
 {
- background-color: #1C94C8;
+ background-color: #16e716;
  color:white;
  padding: 8px 10px;
  margin: 8px 0px;
