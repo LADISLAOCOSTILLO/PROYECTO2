@@ -14,16 +14,16 @@
 	<TD>
 
     <h1>Formulario de ingreso de datos BOTON HOY</h1>
-    <form action="procesar.php" method="post">
+    <form action="procesar_hoy.php" method="post">
 
-        <label for="nombre_tarea">Nombre Tarea:</label> 
+        <label for="nombrsse_tarea">Nombre Tarea:</label> 
         <input type="text" id="nombre_tarea" name="nombre_tarea">
 
         <label for="descripcion">Descripcion:</label>
         <input type="text" id="descripcion" name="descripcion"><br><br>
 
-        <label for="email">Email:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-        <input type="email" id="email" name="email"><br><br>
+        <label for="email">Encargado:</label>&nbsp &nbsp &nbsp 
+        <input type="text" id="email" name="email"><br><br>
 
         <Label for="fecha">Fecha: </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         <input type="date"id="fecha" name="dd/mm/yyyy">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -33,7 +33,7 @@
 
         <div style="text-align:center;">
             <input type="submit" value="AÑADIR_TAREA">
-            <input type="reset" value="LIMPIAR"><br>
+            <input type="reset" value="LIMPIAR-hoy"><br>
         </div>
         <br>
     </form>

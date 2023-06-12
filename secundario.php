@@ -12,7 +12,7 @@
 		<TD>
 
     <h1>Formulario de ingreso de datos BANDEJA</h1>
-    <form action="procesar.php" method="post">
+    <form action="procesarBandeja.php" method="post">
 
         <label for="nombre_tarea">Nombre Tarea:</label>
         <input type="text" id="nombre_tarea" name="nombre_tarea">
@@ -20,8 +20,8 @@
         <label for="descripcion">Descripcion:</label>
         <input type="text" id="descripcion" name="descripcion"><br><br>
 
-        <label for="email">Email:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-        <input type="email" id="email" name="email"><br><br>
+        <label for="Encargado">Emaili:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="Encargado" name="Encargado"><br><br>
 
         <Label for="fecha">Fecha: </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         <input type="date"id="fecha" name="dd/mm/yyyy"> &nbsp &nbsp &nbsp &nbsp
@@ -32,7 +32,7 @@
        
         <div style ="text-align :center;">
             <input type="submit" value="AÑADIR TAREA">
-            <input type="reset" value="LIMPIAR">
+            <input type="reset" value="LIMPIAR-bandeja">
         </div>
         
         

@@ -5,10 +5,10 @@ $username = "root";
 $password = "54321";
 $dbname = "BDTEST";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conexion = mysqli_connect($servername, $username, $password, $dbname);
 
-if ($conn->connect_error) {
-    die("Error de conexión: " . $conn->connect_error);
+if (!$conexion) {
+    die("Error al conectarse a la base de datos: " . mysqli_connect_error());
 }
 
 // Obtener los datos del formulario
@@ -22,11 +22,14 @@ $monto = $_POST['monto'];
 $sql = "INSERT INTO pagos (nombre, numero_tarjeta, fecha_expiracion, codigo_seguridad, monto) 
         VALUES ('$nombre', '$numeroTarjeta', '$fechaExpiracion', '$codigoSeguridad', '$monto')";
 
-if ($sql->query($sql) === TRUE) {
-    echo "Pago realizado con éxito.";
+if (mysqli_query($conexion,$sql)) {
+    
+    echo "Los datos se han guardado correctamente en la base de datos.";
 } else {
-    echo "Error al procesar el pago: " . $conn->error;
+    echo "Error: " . $sql . "<br>" . mysqli_error($conexion);
 }
 
-$conn->close();
+mysqli_close($conexion);
 ?>
+
+
