@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOis</title>
+   
+</head>
+
+<body>
+  <!--tr*6>td*3-->
+    <TABLE style="border: hidden">
+        <TR>
+            <TD width="30%" bgcolor="red"><form action="../../form-result.php" method="post" target="_blank">
+                    <p>
+                      <input type="search" name="busqueda" list="lista">
+                      <input type="submit" value="Buscar">
+                    </p>
+                  </form>
+                    <datalist id="lista">
+                    <option value="Hoy">
+                    <option value="Bandeja de Entrada">
+                </datalist>
+            <!--</TD> <TD><img src="logoTODOIST.PNG" WIDTH="300" height="35"></TD> <TD>Cfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</TD>  -->
+            </TD> 
+            
+            <TD width="60%" bgcolor="red"><marquee><font face="Comic Sans MS,Arial,Verdana"><font color="White"><h3> TODOis - CUANDO QUEREMOS CREAR, GESTIONAR LISTAS DE TAREAS......... </h3></font>  </font></marquee></TD>
+            <TD bgcolor="red" width="40%">
+                
+                
+                <button type="submit" ></button> 
+                
+               </TD>
+        </TR>
+    </TABLE>  
+    <TR>    
+        <!--<tr><button name="button"><img src="bandeja.png" height ="30" width="30" >BANDEJA</button> </tr> -->
+
+        <a href="secundario.php">
+        <button type="submit" class="btn btn-primary btn-sm" style='width: 129px; height:25px'><img src="bandeja.png"> Bandeja</button><br>
+        </a>
+
+    </TR>
+        <tr>
+            <a href="secundario_hoy.php">
+            <button type="submit" class="btn btn btn-primary-lg btn-block" style='width: 129px; height:25px'>
+           
+          
+            <B><FONT COLOR="red"> 
+                <script>
+                   date = new Date().getDate ();
+                    document. write(date);
+                   
+                    </script>
+            </FONT>   
+            Hoy</button> <br>  
+        </a>  
+        
+            <button onclick="changeColor('blue')" type="submit" class="btn btn-primary btn-sm" style='width: 129px; height:25px'><img src="PROXIMO.PNG"> Proximo</button><br>
+            <button type="submit" class="btn btn-primary btn-sm"><img src="FILTRO.PNG"> Filtro Etiquetas</button><br>
+        </tr> 
+     
+   
+    
+    
+</body>
+</html>

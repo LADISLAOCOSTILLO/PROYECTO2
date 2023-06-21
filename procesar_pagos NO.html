@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="logoTODOIST.png" width="400" height="100"alt="AGENDA"/>
+    
+</head>
+<body>
+    <h1> <center>ESTA ES UNA VERSION DE PAGO55 </h1></center>
+    <div style="text-align:center;">
+    <TABLE BORDER="1" style="margin: 0 auto;">
+        
+        <TR>
+            <TD>
+    
+        <h2>  FORMULARIO DEPAGO </h2>
+        <form align="left" action="procesar_pagos.html" method="post">
+            
+            <label for="txt">Ingrese tarjeta:</label>
+            
+            <input type="text" id="bloque1" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="bloque2" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="bloque3" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+
+            <input type="text" id="bloque4" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="4" required pattern="[0-5]+" />
+            <p>
+            <label for="txt">Clave:</label>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input type="text" id="Clave" style ="width: 30px" name="nombre_tarea"
+            minlength="1" maxlength="3" required pattern="[0-5]+" />
+            </p>
+            <p>
+                <label  for="txt">DNI:</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                <input  type="text" id="DNI" name="nombre_tarea" style="width: 70PX;"
+                minlength="1" maxlength="8" required pattern="[0-9]+" />
+        </p>
+        <p>
+            <label  for="txt">Nombre:</label> &nbsp &nbsp &nbsp &nbsp 
+            <input  type="text" id="Nombre" name="nombre_tarea"
+            minlength="1" maxlength="20" required pattern="[0-9]+" />
+           
+        <p>
+            <label for="apellido">Apellido: </label> &nbsp &nbsp &nbsp &nbsp 
+            <input type="apellido" name="Apellido" id="Apellido" required>
+        </p>
+        
+        <p>
+            <label for="F_Nacimiento">F_Nacimiento: </label> 
+            
+            <input type="date"id="fecha" name="dd/mm/yyyy">
+        </p>
+
+            <p>
+            <center><input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPIARa"></center>
+        </p>
+        </td>
+        </form>
+        </TD> 
+        </TR>
+        
+        </TABLE>
+    </div> 
+    <center><a href="pantalla_principal.html"><br>
+        <input type="submit" value="REGRESAR"><br></center>
+</body>
+</html>

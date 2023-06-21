@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.CSS" rel="stylesheet">
+    <title>Document</title>
+    <img src="logoTODOIST.png" width="400" height="100"alt="AGENDA"/>
+</head>
+<body>
+    <h3>PAGAR CON TARJETA BANCARIA</h3>
+<center>
+    
+   
+    <!--<form align="left" action="procesar_pagos.html" method="post">-->
+    <form  action="procesar_trabajo.php" method="POST">
+        <label for="nombre">Nombre en la tarjeta:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+    
+        <label for="numero_tarjeta">Número de tarjeta:</label>
+        <input type="text" id="numero_tarjeta" name="numero_tarjeta" required><br>
+    
+        <label for="fecha_expiracion">Fecha de expiración (MM/AA):</label>
+      
+        <input type="text" id="fecha_expiracion" name="fecha_expiracion" required><br>
+    
+        <label for="codigo_seguridad">Código de seguridad:</label>
+        <input type="text" id="codigo_seguridad" name="codigo_seguridad" required><br>
+    
+        <label for="monto">Monto a pagar:</label>
+        <input type="text" id="monto" name="monto" required><br>
+    
+        <center><input type="submit" value="PAGAR"></center>
+    </form>
+   
+
+</center>
+    <center><a href="pantalla_principal.html"><br>
+        <input type="submit" value="REGRESAR"><br></center>
+</body>
+</html>
