@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <img src="logoTODOIST.png" width="400" height="100"alt="AGENDA"/>
+    <title>REPORTES BANDEJA</title>
 </head>
 <body>
-    
+    <h2>REPORTE DE ACTIVIDADES REALIZADAS</h2>
 	
     <?php
     
@@ -48,6 +51,8 @@ if (mysqli_num_rows($resultados) > 0) {
         echo '<td>' . $fila['Encargado'] . '</td>';
         echo '<td>' . $fila['fecha'] . '</td>';
         echo '<td>' . $fila['telefono'] . '</td>';
+        
+                    
         echo '</tr>';
     }
     
@@ -56,12 +61,17 @@ if (mysqli_num_rows($resultados) > 0) {
 } else {
     echo 'No se encontraron resultados.';
 }
+//echo '<a href="secundario.php"><button>REGRESAR</button></a>';
 
+echo '<a href="secundario.php"><button>REGRESAR</button></a>';
 // Cerrar la conexión a la base de datos
 mysqli_close($conexion);
 
 
     ?>
+    <a href="reporteBandeja.php">
+    <button type="submit" name="submit">PDF</button>
+</a>
     
 </body>
 </html>
