@@ -36,21 +36,22 @@ if (mysqli_num_rows($resultados) > 0) {
     echo '<table>';
     // Encabezados de la tabla
     echo '<tr>';
-    echo '<th>nombre_tarea</th>';
-    echo '<th>descripcion</th>';
-    echo '<th>Encargado</th>';
-    echo '<th>fecha</th>';
-    echo '<th>telefono</th>';
+    echo '<th style="border: 3px solid red;">nombre_tarea</th>';
+    echo '<th style="border: 3px solid red;">>descripcion</th>';
+    echo '<th style="border: 3px solid red;">Encargado</th>';
+    echo '<th style="border: 3px solid red;">fecha</th>';
+    echo '<th style="border: 3px solid red;">telefono</th>';
     echo '</tr>';
-    
+   
     // Mostrar los datos en filas de la tabla
     while ($fila = mysqli_fetch_assoc($resultados)) {
         echo '<tr>';
-        echo '<td>' . $fila['nombre_tarea'] . '</td>';
-        echo '<td>' . $fila['descripcion'] . '</td>';
-        echo '<td>' . $fila['Encargado'] . '</td>';
-        echo '<td>' . $fila['fecha'] . '</td>';
-        echo '<td>' . $fila['telefono'] . '</td>';
+        echo '<td style="border: 2px solid green;">' . $fila['nombre_tarea'] . '</td>';
+        echo '<td style="border: 2px solid green;">' . $fila['descripcion'] . '</td>';
+        echo '<td style="border: 2px solid green;">' . $fila['Encargado'] . '</td>';
+        echo '<td style="border: 2px solid green;">' . $fila['fecha'] . '</td>';
+        echo '<td style="border: 2px solid green;">' . $fila['telefono'] . '</td>';
+        
         
                     
         echo '</tr>';
